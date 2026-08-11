@@ -1,2 +1,2 @@
-# FlyBubbleRGB
-Matlab code to control the fly bubble RGB rig
+# OpenFlyRig
+Matlab code to control the open fly rig, based off of https://github.com/liujinyang/FlyBubbleRGB
