@@ -11,17 +11,17 @@
             }
         },
         "frameRate" : "Format7",
-        "guid" : "cad4236b641d529b345ed0c1a003be51",
+        "guid" : "74ccc2804379e7e010f6f8dea3ba59c6",
         "model" : "Flea3 FL3-U3-13Y3M",
         "properties" : {
             "autoExposure" : {
-                "absoluteControl" : true,
-                "absoluteValue" : 1.3692626953125,
+                "absoluteControl" : false,
+                "absoluteValue" : 2.1766357421875,
                 "autoActive" : false,
-                "on" : true,
+                "on" : false,
                 "onePush" : false,
                 "present" : true,
-                "value" : 496 
+                "value" : 868 
             },
             "brightness" : {
                 "absoluteControl" : false,
@@ -42,13 +42,13 @@
                 "value" : 0 
             },
             "frameRate" : {
-                "absoluteControl" : true,
-                "absoluteValue" : 30.0,
+                "absoluteControl" : false,
+                "absoluteValue" : 150.0,
                 "autoActive" : false,
-                "on" : true,
+                "on" : false,
                 "onePush" : false,
                 "present" : true,
-                "value" : 2076 
+                "value" : 480 
             },
             "gain" : {
                 "absoluteControl" : false,
@@ -124,12 +124,12 @@
             },
             "temperature" : {
                 "absoluteControl" : false,
-                "absoluteValue" : 3.0953500270843505859,
+                "absoluteValue" : 3.1434750556945800781,
                 "autoActive" : false,
                 "on" : false,
                 "onePush" : false,
                 "present" : true,
-                "value" : 3095 
+                "value" : 3144 
             },
             "tilt" : {
                 "absoluteControl" : false,
@@ -142,18 +142,18 @@
             },
             "triggerDelay" : {
                 "absoluteControl" : false,
-                "absoluteValue" : 0.0,
+                "absoluteValue" : 2.384185791015625e-06,
                 "autoActive" : false,
                 "on" : false,
                 "onePush" : false,
                 "present" : true,
-                "value" : 0 
+                "value" : 59 
             },
             "triggerMode" : {
                 "absoluteControl" : false,
                 "absoluteValue" : 0.0,
                 "autoActive" : false,
-                "on" : false,
+                "on" : true,
                 "onePush" : false,
                 "present" : true,
                 "value" : 0 
@@ -178,13 +178,13 @@
                 "value" : 0 
             }
         },
-        "triggerType" : "Internal",
+        "triggerType" : "External",
         "vendor" : "Point Grey Research",
         "videoMode" : "Format7" 
     },
     "configuration" : {
-        "directory" : "",
-        "fileName" : "" 
+        "directory" : "C:/Users/labadmin/Documents/MATLAB/FlyBowl4",
+        "fileName" : "bias_config_default2" 
     },
     "display" : {
         "colorMap" : "None",
@@ -202,7 +202,7 @@
             "includeTimeAndDate" : false,
             "timeAndDateFormat" : "'date'_yyyy_MM_dd_'time'_hh_mm_ss" 
         },
-        "directory" : "",
+        "directory" : "C:/Users/labadmin/Documents/MATLAB/FlyBowl4",
         "enabled" : false,
         "fileName" : "bias_video",
         "format" : "ufmf",
@@ -233,7 +233,7 @@
     },
     "server" : {
         "enabled" : true,
-        "port" : 5010 
+        "port" : 5020 
     },
     "timer" : {
         "enabled" : false,

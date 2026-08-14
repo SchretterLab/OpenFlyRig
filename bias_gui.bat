@@ -1,2 +1,2 @@
-C:\Users\labadmin\Documents\MATLAB\flyBubbleRGB\bias_spinnaker\test_gui.exe
+C:\Users\labadmin\Documents\MATLAB\FlyOpenRig\bias_test_gui_v0p49\bias_gui_v049.exe
 exit
