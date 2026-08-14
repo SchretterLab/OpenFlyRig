@@ -16,8 +16,9 @@ classdef LEDController < handle
             try
                 obj.serialPort = serialport(COMPort, 115200);
                 configureTerminator(obj.serialPort,"CR");
-            catch ME
-                display(ME.message);
+            catch
+                fprintf(['No LED controller detected on %s - continuing ' ...
+                    'without backlight (open rig). This is expected.\n'], COMPort);
                 obj.serialPort = 0;
             end
         end
